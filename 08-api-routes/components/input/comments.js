@@ -34,7 +34,7 @@ function Comments(props) {
       },
     })
       .then((resposne) => resposne.json())
-      .then((data) => console.log(data));
+      .then(() => {});
   }
 
   return (
